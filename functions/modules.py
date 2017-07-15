@@ -32,7 +32,7 @@ def moonweg():
     wegMoon = int(sys.stdin.readline())*0.165
     print("your weight on moon %s" %wegMoon)
     print("weight increase in future?")
-    wegInc = (sys.stdin.readline())
+    wegInc = int(sys.stdin.readline())
     for x in range(wegInc,16):
         newWeg = x + wegMoon
         print newWeg,

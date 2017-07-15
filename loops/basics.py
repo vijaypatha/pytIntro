@@ -59,3 +59,8 @@ print moonWeg
 for x in range(1,16):
     incWeg = x + moonWeg
     print(incWeg)
+
+#print odd numbers
+for x in range(1,100):
+    if x % 2 != 0:
+        print x,
