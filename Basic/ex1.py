@@ -9,3 +9,5 @@ print 200-100
 print "line#2"
 #this is how you write comments in python
 print "I hope heidi gets better"
+print ("rats")
+print("cats and dogs")
